@@ -15,6 +15,8 @@ var current_level:levels = levels.grounded
 enum levels{tunnel = -1, grounded = 0, bridge = 1}
 var level_1
 func _unhandled_input(event):
+	if not shared_state:
+		return
 	if event is InputEventMouseButton and event.pressed:
 		print("Estado actual detectado: ", shared_state.state)
 	if shared_state.state == road_button_states.states.off:
