@@ -1,6 +1,0 @@
-[gd_resource type="Resource" script_class="road_button_states" load_steps=2 format=3 uid="uid://bx5iekb4f1tul"]
-
-[ext_resource type="Script" uid="uid://db7nwcpytypty" path="res://UI_in_game/state.gd" id="1_e5k26"]
-
-[resource]
-script = ExtResource("1_e5k26")
