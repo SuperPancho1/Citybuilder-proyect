@@ -1,9 +1,44 @@
-# Citybuilder-proyect
-"Estoy aprendiendo a programar de forma autodidacta desde el 16 de enero. Este es uno de mis primeros proyectos y me he topado con un muro: el código no funciona como esperaba en la parte de detectar intersecciones, mas bien al usar niveles distintos como un viaducto no lo registra bien y hace una interseccion donde no debe.
+# Citybuilder Project (Graph-Based)
 
-¿Me darías una mano? Si ves el error, te agradecería mucho que me ayudes a corregirlo y, sobre todo, que me expliques por qué fallaba. ¡Estoy aquí para aprender!"
+Este es un proyecto de Citybuilder desarrollado en **Godot 4 (GDScript)**. Inicié mi camino en la programación de forma autodidacta el 16 de enero de este año, y este repositorio sirve como mi base de desarrollo y backup en la nube.
 
-#Citybuilder-project
-"I've been learning to program on my own since January 16th. This is one of my first projects, and I've hit a wall: the code isn't working as expected when it comes to detecting intersections. Specifically, when using different levels, like a viaduct, it doesn't register them correctly and creates an intersection where it shouldn't.
+## 🛠️ Estado del Proyecto
+El sistema central utiliza una estructura de **Grafos** (`GraphManager`) para gestionar la red vial mediante nodos y segmentos. Actualmente soporta:
+* Construcción de carreteras rectas y curvas (Bezier).
+* Sistema de niveles (Túnel, Suelo, Puente).
+* Detección automática de intersecciones basada en altura.
 
-Could you lend me a hand? If you see the error, I would greatly appreciate it if you could help me correct it and, above all, explain why it was failing. I'm here to learn!"
+## 🚀 Objetivo de este Repositorio
+Este código está en constante evolución. Si revisas los scripts y encuentras:
+1. **Errores de lógica** o bugs potenciales.
+2. **Oportunidades de optimización** (mejorar el rendimiento).
+3. **Mejores prácticas** de GDScript que no haya aplicado.
+
+¡Siéntete libre de corregirlo! Lo único que pido es que **me expliques el porqué del error o de la mejora**, ya que mi meta principal es aprender y entender a fondo cómo construir sistemas complejos.
+
+---
+"La mejor forma de aprender es rompiendo cosas y volviéndolas a armar de forma más eficiente."
+
+# Citybuilder Project (Graph-Based)
+
+This is a Citybuilder project developed in **Godot 4 (GDScript)**. I began my programming journey as a self-taught developer on January 16th of this year, and this repository serves as my development base and cloud backup.
+
+## 🛠️ Project Status
+The core system uses a **Graph** structure (`GraphManager`) to manage the road network using nodes and segments. It currently supports:
+* Construction of straight and curved (Bézier) roads.
+
+* Level system (Tunnel, Ground, Bridge).
+
+* Automatic intersection detection based on height.
+
+## 🚀 Purpose of this Repository
+This code is constantly evolving. If you review the scripts and find:
+1. **Logic errors** or potential bugs.
+
+2. **Optimization opportunities** (to improve performance).
+
+3. **GDScript Best Practices** that I haven't applied.
+
+Feel free to correct them! All I ask is that you **explain the reason for the error or the improvement**, as my main goal is to learn and thoroughly understand how to build complex systems.
+
+--- "The best way to learn is by breaking things down and putting them back together more efficiently."
