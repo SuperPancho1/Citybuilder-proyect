@@ -1,0 +1,6 @@
+[gd_resource type="Resource" script_class="RoadSegment" load_steps=2 format=3 uid="uid://eqwsldsk5p01"]
+
+[ext_resource type="Script" uid="uid://cycox2kn8uxfw" path="res://Roads/Data/RoadSegment.gd" id="1_gknlm"]
+
+[resource]
+script = ExtResource("1_gknlm")

@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3 uid="uid://c0vol0ewcpcdp"]
+
+[ext_resource type="Script" uid="uid://3x5erxlc8dwj" path="res://Roads/node_2d.gd" id="1_ckj6v"]
+[ext_resource type="Texture2D" uid="uid://bntiqb7wsdrc3" path="res://icon.svg" id="2_1jae4"]
+[ext_resource type="Script" uid="uid://cfkyv5k3uuqrk" path="res://UI_in_game/straight_button.gd" id="3_g1sgl"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_ckj6v")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="TextureButton" type="TextureButton" parent="CanvasLayer"]
+offset_left = 33.0
+offset_top = 638.0
+offset_right = 161.0
+offset_bottom = 766.0
+action_mode = 0
+texture_normal = ExtResource("2_1jae4")
+texture_pressed = ExtResource("2_1jae4")
+texture_hover = ExtResource("2_1jae4")
+script = ExtResource("3_g1sgl")
+
+[node name="TextureButton2" type="TextureButton" parent="CanvasLayer"]
+offset_left = 175.0
+offset_top = 637.0
+offset_right = 303.0
+offset_bottom = 765.0
+texture_normal = ExtResource("2_1jae4")
+texture_pressed = ExtResource("2_1jae4")
+texture_hover = ExtResource("2_1jae4")
