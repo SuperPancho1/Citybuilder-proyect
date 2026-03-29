@@ -1,6 +1,0 @@
-[gd_resource type="Resource" script_class="RoadProfile" load_steps=2 format=3 uid="uid://cqjq6nf0imqnl"]
-
-[ext_resource type="Script" uid="uid://lexotmmwm7ot" path="res://Roads/Data/RoadProfile.gd" id="1_7vg2n"]
-
-[resource]
-script = ExtResource("1_7vg2n")
