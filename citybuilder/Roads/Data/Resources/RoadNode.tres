@@ -1,0 +1,6 @@
+[gd_resource type="Resource" script_class="RoadNode" load_steps=2 format=3 uid="uid://d3fy6kuaio2d7"]
+
+[ext_resource type="Script" uid="uid://f8fb0lyfrs8h" path="res://Roads/Data/Scripts/RoadNode.gd" id="1_4mdpe"]
+
+[resource]
+script = ExtResource("1_4mdpe")

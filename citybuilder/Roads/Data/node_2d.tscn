@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=3 uid="uid://cf15okx0ankg3"]
+
+[ext_resource type="Script" uid="uid://b4j3iv8kx8d5u" path="res://Roads/Data/GraphManager.gd" id="1_cdlcg"]
+[ext_resource type="Resource" uid="uid://b4i3tuqgv7m61" path="res://Roads/Buttons/Resources/RoadMode.tres" id="2_qarph"]
+[ext_resource type="Texture2D" uid="uid://bthivtkcdnjqt" path="res://icon.svg" id="2_teiq0"]
+[ext_resource type="Script" uid="uid://dr2mooyhkyph1" path="res://Roads/Data/Straight_road.gd" id="3_gtnnu"]
+[ext_resource type="Script" uid="uid://tlj3ouoh4iko" path="res://Roads/Data/CurveButton.gd" id="5_w1rpk"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_cdlcg")
+SharedRoadMode = ExtResource("2_qarph")
+
+[node name="TextureButton" type="TextureButton" parent="."]
+offset_left = 3.0
+offset_top = 518.0
+offset_right = 131.0
+offset_bottom = 646.0
+texture_normal = ExtResource("2_teiq0")
+texture_pressed = ExtResource("2_teiq0")
+texture_hover = ExtResource("2_teiq0")
+texture_disabled = ExtResource("2_teiq0")
+texture_focused = ExtResource("2_teiq0")
+script = ExtResource("3_gtnnu")
+SharedRoadMode = ExtResource("2_qarph")
+
+[node name="TextureButton2" type="TextureButton" parent="."]
+offset_left = 156.0
+offset_top = 517.0
+offset_right = 284.0
+offset_bottom = 645.0
+texture_normal = ExtResource("2_teiq0")
+texture_pressed = ExtResource("2_teiq0")
+texture_hover = ExtResource("2_teiq0")
+texture_disabled = ExtResource("2_teiq0")
+texture_focused = ExtResource("2_teiq0")
+script = ExtResource("5_w1rpk")
+SharedRoadMode = ExtResource("2_qarph")
+
+[connection signal="pressed" from="TextureButton" to="TextureButton" method="_on_pressed"]
+[connection signal="pressed" from="TextureButton2" to="TextureButton" method="_on_texture_button_2_pressed"]

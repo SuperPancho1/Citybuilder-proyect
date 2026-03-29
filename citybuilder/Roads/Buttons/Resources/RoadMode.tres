@@ -1,0 +1,6 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://b4i3tuqgv7m61"]
+
+[ext_resource type="Script" uid="uid://f2buw3m6sbbu" path="res://Roads/Buttons/scripts/RoadMode.gd" id="1_a84nc"]
+
+[resource]
+script = ExtResource("1_a84nc")
