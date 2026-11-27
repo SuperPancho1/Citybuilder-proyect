@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dfqru20k327qj"]
+
+[ext_resource type="PackedScene" uid="uid://jqk74ogs4ujc" path="res://Scenes/GraphManager.tscn" id="1_r150o"]
+
+[node name="Main" type="Node2D"]
+metadata/_edit_group_ = true
+
+[node name="GraphManager" parent="." instance=ExtResource("1_r150o")]
